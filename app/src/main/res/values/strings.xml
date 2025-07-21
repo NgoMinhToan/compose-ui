@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Project1</string>
+    <string name="hello_world_text">Hello world</string>
     <string name="roll">Roll</string>
 </resources>
