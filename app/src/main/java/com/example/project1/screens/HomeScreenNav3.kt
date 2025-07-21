@@ -23,7 +23,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation3.runtime.NavBackStack
-import com.example.project1.ScreenNav3
+import com.example.project1.nav3.ScreenNav3
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -108,6 +108,14 @@ fun Screen(modifier: Modifier = Modifier,navBackStack: NavBackStack) {
             },
         ) {
             Text(text = "GO TO TODO APP")
+        }
+        Button(
+            elevation = null,
+            onClick = {
+                navBackStack.add(ScreenNav3.DiceRollerApp)
+            },
+        ) {
+            Text(text = "GO TO DICE ROLLER APP")
         }
     }
 }
