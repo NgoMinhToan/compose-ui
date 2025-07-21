@@ -18,6 +18,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import com.example.project1.ScreenNav3
 
 @Composable
 fun HomeScreen(modifier: Modifier = Modifier, navController: NavController) {
@@ -51,14 +52,6 @@ fun HomeScreen(modifier: Modifier = Modifier, navController: NavController) {
                     },
                 ) {
                     Text(text = "GO TO DETAIL")
-                }
-                Button(
-                    elevation = null,
-                    onClick = {
-                        navBackStack.add(ScreenNav3.DiceRollerApp)
-                    },
-                ) {
-                    Text(text = "GO TO Dice Roller")
                 }
             }
         }

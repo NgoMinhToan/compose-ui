@@ -1,8 +1,5 @@
 package com.example.project1
 
-import androidx.compose.animation.slideInHorizontally
-import androidx.compose.animation.slideOutHorizontally
-import androidx.compose.animation.togetherWith
 import androidx.compose.material3.adaptive.ExperimentalMaterial3AdaptiveApi
 import androidx.compose.material3.adaptive.navigation3.ListDetailSceneStrategy
 import androidx.compose.material3.adaptive.navigation3.rememberListDetailSceneStrategy
@@ -15,9 +12,9 @@ import androidx.navigation3.runtime.rememberNavBackStack
 import androidx.navigation3.runtime.rememberSavedStateNavEntryDecorator
 import androidx.navigation3.ui.NavDisplay
 import androidx.navigation3.ui.rememberSceneSetupNavEntryDecorator
-import com.example.project1.nav3.ScreenNav3
 import com.example.project1.screens.DemoScreen
 import com.example.project1.screens.DetailScreenNav3
+import com.example.project1.screens.DiceRollerApp
 import com.example.project1.screens.HomeScreenNav3
 import com.example.project1.screens.Screen1
 import com.example.project1.screens.Screen2

@@ -1,4 +1,4 @@
-package com.example.project1.nav3
+package com.example.project1
 
 import androidx.navigation3.runtime.NavKey
 import kotlinx.serialization.Serializable

@@ -1,4 +1,4 @@
-package com.example.project1
+package com.example.project1.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -21,6 +21,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation3.runtime.NavBackStack
+import com.example.project1.R
 import com.example.project1.ui.theme.Project1Theme
 
 @Composable
