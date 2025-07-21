@@ -51,6 +51,14 @@ fun HomeScreenNav3(modifier: Modifier = Modifier, navBackStack: NavBackStack) {
                 ) {
                     Text(text = "GO TO DETAIL")
                 }
+                Button(
+                    elevation = null,
+                    onClick = {
+                        navBackStack.add(ScreenNav3.DiceRollerApp)
+                    },
+                ) {
+                    Text(text = "GO TO Dice Roller")
+                }
             }
         }
     )

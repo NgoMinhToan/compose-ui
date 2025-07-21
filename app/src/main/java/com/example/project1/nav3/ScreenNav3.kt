@@ -11,4 +11,7 @@ sealed class ScreenNav3: NavKey {
 
     @Serializable
     data class Detail(val name: String) : ScreenNav3()
+
+    @Serializable
+    data object DiceRollerApp : ScreenNav3()
 }

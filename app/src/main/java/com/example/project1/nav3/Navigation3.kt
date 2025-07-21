@@ -17,6 +17,7 @@ import androidx.navigation3.runtime.rememberNavBackStack
 import androidx.navigation3.runtime.rememberSavedStateNavEntryDecorator
 import androidx.navigation3.ui.NavDisplay
 import androidx.navigation3.ui.rememberSceneSetupNavEntryDecorator
+import com.example.project1.DiceRollerApp
 import com.example.project1.Screen
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
@@ -46,6 +47,11 @@ fun Navigation3(modifier: Modifier = Modifier) {
                 metadata = ListDetailSceneStrategy.detailPane()
             ) { key ->
                 DetailScreenNav3(name = key.name)
+            }
+            entry<ScreenNav3.DiceRollerApp>(
+                metadata = ListDetailSceneStrategy.detailPane()
+            ) { key ->
+                DiceRollerApp(navBackStack = backStack)
             }
         },
     )
